@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
     crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -27,21 +29,30 @@
     </div>
   </nav>
   <h2>Why should I learn Bootstrap?</h2>
-  <div class="carousel slide" id="demoCarousel" data-ride="carousel">
-    <ol>
+  <div class="carousel slide mx-auto" id="demoCarousel" data-ride="carousel" style="width: 900px;">
+    <ol class="carousel-indicators">
       <li data-target="#demoCarousel" data-slide="0" class="active"></li>
       <li data-target="#demoCarousel" data-slide="1"></li>
       <li data-target="#demoCarousel" data-slide="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
-        <div class="carousel-caption">It's easy!</div>
+        <img class="mx-auto" src="/bootstrap1/img/car.jpeg" alt="car">
+        <div class="carousel-caption">
+          <h3>It's easy!</h3>
+        </div>
       </div>
       <div class="carousel-item">
-        <div class="carousel-caption">Create beautiful websites</div>
+        <img class="mx-auto" src="/bootstrap1/img/clock.jpeg" alt="clock">
+        <div class="carousel-caption">
+          <h3>Create beautiful websites</h3>
+        </div>
       </div>
       <div class="carousel-item">
-        <div class="carousel-caption">Easily add components</div>
+        <img class="mx-auto" src="/bootstrap1/img/headphones.jpeg" alt="headphones">
+        <div class="carousel-caption">
+          <h3>Easily add components</h3>
+        </div>
       </div>
     </div>
     <a href="#demoCarousel" class="left carousel-control" role="button" data-slide="prev">
@@ -69,8 +80,9 @@
     <input type="text">
     <button>Sign Up</button>
   </form>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+    crossorigin="anonymous"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
 
 </html>
