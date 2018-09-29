@@ -27,11 +27,38 @@
     </div>
   </nav>
   <h2>Why should I learn Bootstrap?</h2>
-  <ol>
+  <div class="carousel slide" id="reasons" data-ride="carousel">
+    <ol>
+      <li data-target="#reasons" data-slide="0" class="active"></li>
+      <li data-target="#reasons" data-slide="1"></li>
+      <li data-target="#reasons" data-slide="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="carousel-caption">It's easy!</div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">Create beautiful websites</div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">Easily add components</div>
+      </div>
+    </div>
+    <a href="#reasons" class="left carousel-control" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a href="#reasons" class="right carousel-control" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- <ol>
     <li>It's easy</li>
     <li>You can create beautiful websites</li>
     <li>Only the cool kids do it!</li>
-  </ol>
+  </ol> -->
 
   <h3>Take <a href="https://www.udemy.com">the course now</a></h3>
   <h3>Tons of <a href="http://v4-alpha.getbootstrap.com/components">new features</a> in bootstrap 4</h3>
